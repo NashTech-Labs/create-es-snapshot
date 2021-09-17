@@ -1,7 +1,8 @@
 ### Elastic Backup Configuration
 
 The script configures the s3 buckets and
-then initiates snapshot process.
+then initiates snapshot process. The elasticsearch
+should have "cloud-aws" plugin installed. 
 
 ##### _Requirements_
 we need the following python packages:
